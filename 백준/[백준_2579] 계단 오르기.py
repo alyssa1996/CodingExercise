@@ -1,12 +1,12 @@
 n=int(input())
 ar=[0]*(n+1)
+dp=[0]*(n+1)
 
 for i in range(1,n+1):
     ar[i]=int(input())
 
-print(ar)
+dp[1]=ar[1]
 for i in range(2,n+1):
-    ar[i]=max(ar[i-1],ar[i-2]+ar[i])
-    print(ar)
+    dp[i]=max(ar[i]+ar[i-1]+dp[i-3],ar[i]+dp[i-2])
 
-print(ar[n])
+print(dp[n])
