@@ -55,5 +55,5 @@ for value in word:
 print(dictionary)
 >>> {'t': 1, 'h': 1, 'i': 2, 's': 2, ' ': 2, 'e': 2, 'x': 1, 'a': 1, 'm': 1, 'p': 1, 'l': 1}
 ```
-이처럼 defaultdict()를 사용하면 코드가 한결 깔끔해지고, 구현하는 데에도 편리한 것을 확인할 수 있다. 인자로 list,set등도 받을 수 있기 때문에 더 복잡한 구현도 defaultdict()를 이용하면 더욱 손쉬어 질 것이라고 예상된다!
+이처럼 defaultdict()를 사용하면 코드가 한결 깔끔해지고, 구현하는 데에도 편리한 것을 확인할 수 있다. 인자로 list,set등도 받을 수 있기 때문에 더 복잡한 구현도 defaultdict()를 이용하면 더욱 손쉬 질 것이라고 예상된다!
 * 참고 사이트: https://dongdongfather.tistory.com/69 , https://itholic.github.io/python-defaultdict/
