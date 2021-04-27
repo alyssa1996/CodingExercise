@@ -45,9 +45,9 @@ print(dictionary)
 ```
 ```python
 # defaultdict()를 사용하는 경우
-from collections import defaultdict() # 단 반드시 import
+from collections import defaultdict # 단 반드시 import
 word="this is example"
-dictionary=dict(int)
+dictionary=defaultdict(int)
 
 for value in word:
 	dictionary[value] += 1 # 초기화 없이 바로 연산하는 것도 가능하다
