@@ -23,8 +23,6 @@ def topology_sort():
             indegree[i] -= 1
             if indegree[i] == 0:
                 q.append(i)
+    return result
 
-    for i in result:
-        print(i, end=' ')
-
-topology_sort()
+print(' '.join(map(str, topology_sort())))
